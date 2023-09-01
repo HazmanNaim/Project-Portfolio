@@ -40,9 +40,7 @@ A summary of the models' performance metrics is provided below:
 | Random Forest Classifier  | rf2                   | Default, Scaled                                    | 1.000000         | -                | 0.99115         | -               | 0.99142                        |
 | Random Forest Classifier  | rf3                   | min_samples_split=6, min_samples_leaf=1, max_f... | 1.000000         | -                | 0.99150         | -               | 0.99217                        |
 
-From the provided summary table about how well models predict house prices using 5-fold cross-validation, we can learn some useful things:
-
-In this project, several machine learning models were trained and evaluated for the task of classifying galaxies, stars, and QSOs from SDSS data.
+From the provided summary table about how well models classify the celestial sources using 5-fold cross-validation, we can learn some useful things:
 
 **Scaled vs Unscaled**: The performance of Logistic Regression (lr1 and lr2) and Support Vector Classifier (svm1 and svm2) models improved when the data was scaled. Specifically, the accuracy of lr2 increased to 98.93% from 91.40% of lr1, and the accuracy of svm2 increased to 98.90% from 78.10% of svm1.
 
