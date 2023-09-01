@@ -20,7 +20,7 @@ Throughout this notebook, essential pre-processing steps were applied to the dat
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 ## Challenges Encountered
-1. The project encountered challenges primarily stemming from hardware limitations. The use of a low-specification computer significantly impeded progress. Tasks such as model tuning, which necessitate numerous iterations, were notably delayed due to hardware constraints. For instance, the time required to fine-tune the model was substantially extended, hindering the overall workflow.
+1. The project faced an issue of class imbalance, where the ‘Quasars’ class was the least accurately classified due to its minority representation in the dataset compared to other classes such as ‘Galaxies’ and ‘Stars’.
 
 ## Outcomes
 **Results**
@@ -53,6 +53,4 @@ In this project, several machine learning models were trained and evaluated for 
 In conclusion, this project successfully implemented and evaluated several machine learning models for classifying astronomical objects. The tuned Random Forest Classifier (rf3) demonstrated the best performance.
 
 ## Further Enhancements
-1. Given a longer time duration, it would be beneficial to delve into more advanced machine learning models beyond the ones already explored. Models such as Gradient Boosting, or Neural Networks could be studied to potentially yield even more accurate predictions.
-2. Testing the models on entirely separate datasets, including those not used during training or evaluation, can provide a more realistic assessment of their predictive accuracy and generalization to new data.
-3. To ensure that the models are trained with the most relevant features, a more comprehensive approach to feature selection could be implemented. For instance, conducting techniques like Recursive Feature Elimination could be considered. This process iteratively identifies and removes less influential features, ultimately enhancing the model's ability to capture meaningful patterns and relationships within the data.
+1. Additional work could be carried out on the datasets to eliminate any bias and address the issue of class imbalance. For example, techniques such as oversampling or undersampling, could be employed to balance the classes and improve the accuracy of classification. 
